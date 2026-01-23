@@ -65,7 +65,7 @@ Users can add, edit, delete, and categorize tasks with deadlines.
 
 1. Clone the repository
 ```bash
-git clone https://github.com/your-username/django-task-manager.git
+git clone https://github.com/sojwal-patil/todo-list.git
 ```
 2. Navigate to project directory
 ```
