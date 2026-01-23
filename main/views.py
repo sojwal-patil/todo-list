@@ -20,8 +20,8 @@ def index(request):
     return render(request,"index.html",context)
 
 def delete(request,id):
+    task = get_object_or_404(Task,pk=id)
     if request.method == "POST":
-        task = get_object_or_404(Task,pk=id)
         task.delete()
         return redirect("index")
     return render(request,"delete.html",{"task":task})
