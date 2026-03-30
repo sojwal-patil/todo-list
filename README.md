@@ -9,7 +9,7 @@ Users can add, edit, delete, and categorize tasks with deadlines.
 
 - Add new tasks
 - Edit existing tasks
-- Delete tasks (POST-based, secure)
+- Delete tasks (POST-based, secure).
 - Categorize tasks (Personal, Work, Study, etc.)
 - Set task deadlines
 - Clean and beginner-friendly Django structure
